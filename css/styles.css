@@ -11,12 +11,16 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-font-color);
+  width: 1600px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
   color: black;
   text-decoration: none;
   font-size: 26px;
+  display: inline-block;
+  margin: 24px 93px 25px 215px;
+  letter-spacing: 0.03em;
 }
 .logo-blue {
   color: var(--brand-light-blue);
@@ -24,6 +28,11 @@ body {
 .main-navigation {
   font-weight: 500;
   font-size: 14px;
+  display: inline-flex;
+  width: 254px;
+  justify-content: space-between;
+  margin-right: 371px;
+  letter-spacing: 0.02em;
 }
 .main-navigation a {
   text-decoration: none;
@@ -42,18 +51,32 @@ body {
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
-  color: var(--main-font-color);
+  color: var(--secondary-font-color);
+  margin-right: 50px;
+  letter-spacing: 0.02em;
+}
+.contact-information:last-child {
+  margin-right: auto;
 }
 .contact-information:hover,
 .contact-information:focus {
   color: var(--brand-light-blue);
 }
+.container-slogan {
+  background: var(--brand-dark-blue);
+  padding-block: 200px;
+}
 .slogan {
   color: var(--white);
-  background: var(--brand-dark-blue);
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
+  padding-inline: 452px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 .order-button {
   background: var(--brand-light-blue);
@@ -65,6 +88,8 @@ body {
   border-width: 0px;
   border-radius: 4px;
   padding: 10px 41px 10px 42px;
+  margin-left: 700px;
+  letter-spacing: 0.06em;
 }
 
 .order-button:hover {
