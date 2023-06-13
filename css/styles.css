@@ -97,13 +97,29 @@ body {
   background-color: var(--grey-background);
 }
 
+.articles {
+  display: flex;
+  padding-inline: 215px;
+  padding-block: 94px;
+  justify-content: space-between;
+}
+
 .article-title {
   font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .article-description {
   font-size: 14px;
   line-height: 171%;
   color: var(--secondary-font-color);
+  letter-spacing: 0.03em;
+  width: 270px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.articles:last-child {
+  margin-right: 0px;
 }
 .section-title {
   font-size: 36px;
