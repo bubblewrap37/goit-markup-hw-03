@@ -123,6 +123,23 @@ body {
 }
 .section-title {
   font-size: 36px;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  letter-spacing: 0.03em;
+}
+.activities {
+  padding-bottom: 94px;
+  padding-inline: 215px;
+  font-size: 0px;
+}
+.activities img {
+  display: inline-block;
+  margin-right: 30px;
+}
+.activities img:last-of-type {
+  margin-right: 0px;
 }
 .team-member {
   font-weight: 500;
