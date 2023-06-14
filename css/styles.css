@@ -141,13 +141,34 @@ body {
 .activities img:last-of-type {
   margin-right: 0px;
 }
+
+.team-members {
+  background-color: var(--grey-background);
+  padding-block: 94px;
+  font-size: 0px;
+  padding-inline: 215px;
+}
 .team-member {
+  display: inline-block;
+  background-color: var(--white);
+  margin-right: 30px;
+}
+.team-member:last-of-type {
+  margin-right: 0px;
+}
+.team-member-name {
   font-weight: 500;
   font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .position-name {
   font-size: 16px;
   color: var(--secondary-font-color);
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .filter-button {
