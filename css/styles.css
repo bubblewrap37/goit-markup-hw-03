@@ -144,7 +144,6 @@ body {
 }
 .activities {
   padding-bottom: 94px;
-  padding-inline: 215px;
   font-size: 0px;
 }
 .activities img {
@@ -159,7 +158,6 @@ body {
   background-color: var(--grey-background);
   padding-block: 94px;
   font-size: 0px;
-  padding-inline: 215px;
 }
 .team-member {
   display: inline-block;
