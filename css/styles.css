@@ -7,7 +7,9 @@
   --grey-background: #f5f4fa;
   --white-faded: rgba(255, 255, 255, 0.6);
 }
-
+header {
+  border-bottom: 1px solid #ececec;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-font-color);
