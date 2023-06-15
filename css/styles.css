@@ -6,6 +6,7 @@
   --white: #ffffff;
   --grey-background: #f5f4fa;
   --white-faded: rgba(255, 255, 255, 0.6);
+  width: 1600px;
 }
 header {
   border-bottom: 1px solid #ececec;
@@ -13,7 +14,11 @@ header {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-font-color);
-  width: 1600px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-inline: 15px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -21,7 +26,9 @@ body {
   text-decoration: none;
   font-size: 26px;
   display: inline-block;
-  margin: 24px 93px 25px 215px;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-right: 93px;
   letter-spacing: 0.03em;
 }
 .logo-blue {
@@ -51,15 +58,20 @@ body {
 }
 .contact-information {
   font-weight: 500;
+  display: inline-block;
   font-size: 14px;
   text-decoration: none;
+
   color: var(--secondary-font-color);
-  margin-right: 50px;
   letter-spacing: 0.02em;
 }
 .contact-information:last-child {
-  margin-right: auto;
+  margin-right: 0px;
 }
+.container a[href="mailto:info@devstudio.com"] {
+  margin-right: 50px;
+}
+
 .contact-information:hover,
 .contact-information:focus {
   color: var(--brand-light-blue);
