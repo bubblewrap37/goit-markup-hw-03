@@ -58,7 +58,6 @@ body {
 }
 .contact-information {
   font-weight: 500;
-  display: inline-block;
   font-size: 14px;
   text-decoration: none;
 
@@ -85,7 +84,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
-  padding-inline: 452px;
+  padding-inline: 237px;
   margin-top: 0px;
   margin-bottom: 30px;
   text-align: center;
@@ -102,7 +101,7 @@ body {
   border-width: 0px;
   border-radius: 4px;
   padding: 10px 41px 10px 42px;
-  margin-left: 700px;
+  margin-left: 485px;
   letter-spacing: 0.06em;
 }
 
