@@ -17,7 +17,8 @@ body {
 }
 .container {
   width: 1200px;
-  margin: 0 auto;
+  margin-left: 200px;
+  margin-right: 200px;
   padding-inline: 15px;
 }
 .logo {
@@ -112,7 +113,6 @@ body {
 
 .articles {
   display: flex;
-  padding-inline: 215px;
   padding-block: 94px;
   justify-content: space-between;
 }
