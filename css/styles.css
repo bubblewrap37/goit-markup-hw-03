@@ -116,7 +116,6 @@ body {
 
 .articles {
   display: flex;
-  padding-block: 94px;
   justify-content: space-between;
 }
 
