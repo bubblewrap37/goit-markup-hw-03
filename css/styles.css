@@ -21,6 +21,9 @@ body {
   margin-right: 200px;
   padding-inline: 15px;
 }
+.section {
+  padding-block: 94px;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   color: black;
@@ -182,6 +185,10 @@ body {
   text-align: center;
 }
 
+.filters {
+  margin-left: 295px;
+  margin-bottom: 50px;
+}
 .filter-button {
   font-weight: 500;
   font-size: 16px;
@@ -231,14 +238,31 @@ footer {
 address {
   padding-bottom: 60px;
 }
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.projects figure {
+  margin: 0;
+  border-bottom: 1px solid #eeeeee;
+}
+figure img {
+  display: block;
+}
 .project-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 200%s;
+  line-height: 200%;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .project-category {
   color: var(--secondary-font-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 188%;
+  margin-top: 4px;
+  margin-bottom: 0px;
 }
