@@ -6,7 +6,6 @@
   --white: #ffffff;
   --grey-background: #f5f4fa;
   --white-faded: rgba(255, 255, 255, 0.6);
-  width: 1600px;
 }
 header {
   border-bottom: 1px solid #ececec;
@@ -17,12 +16,15 @@ body {
 }
 .container {
   width: 1200px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: 0 auto;
   padding-inline: 15px;
 }
 .section {
   padding-block: 94px;
+}
+.entire-header {
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -32,7 +34,6 @@ body {
   display: inline-block;
   margin-top: 24px;
   margin-bottom: 25px;
-  margin-right: 93px;
   letter-spacing: 0.03em;
 }
 .logo-blue {
@@ -44,7 +45,7 @@ body {
   display: inline-flex;
   width: 254px;
   justify-content: space-between;
-  margin-right: 371px;
+
   letter-spacing: 0.02em;
 }
 .main-navigation a {
@@ -134,7 +135,6 @@ body {
   margin-bottom: 0px;
 }
 .articles:last-child {
-  margin-right: 0px;
 }
 .section-title {
   font-size: 36px;
@@ -185,7 +185,9 @@ body {
 }
 
 .filters {
-  margin-left: 295px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
   margin-bottom: 50px;
 }
 .filter-button {
