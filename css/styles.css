@@ -26,6 +26,15 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 93px;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   color: black;
